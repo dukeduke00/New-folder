@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: "Inter", sans-serif;
+	text-align: left;
+	width: 1100px;
+}
+
+.standingsClubs {
+	width: 968px;
+	display: flex;
+	align-items: center;
+	background-color: #f2f0f9;
+	padding-left: 10px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 22px;
+	border-radius: 8px;
+	margin-bottom: 8px;
+}
+
+.clubRank {
+	display: flex;
+	align-items: center;
+	width: 51%;
+	gap: 16px;
+}
+
+.score {
+	width: 6%;
+}
+
+.lastMatch {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	margin-left: 88px;
+}
+
+.firstLine {
+	display: flex;
+	align-items: center;
+	width: 985px;
+	margin-bottom: 16px;
+}
